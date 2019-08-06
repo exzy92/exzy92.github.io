@@ -14,3 +14,4 @@ My homework
 [lesson 9](https://exzy92.github.io/lesson9/MyFirstProject/src/ "web page with bootstrap") - web page from lesson 7 with Bootstrap  
 [lesson 10](https://github.com/exzy92/exzy92.github.io/tree/master/lesson10 "preprocessor LESS") - preprocessor LESS for beginners  
 [lesson 11](https://github.com/exzy92/exzy92.github.io/blob/master/lesson11/index.html "snippets") - Snippets  
+[lesson 12](https://exzy92.github.io/lesson12/exzy92_exzy92.github.io.htm "hosting by GitHub") - hosting by GitHub  
