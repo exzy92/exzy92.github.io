@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- (c) 2015-2019 Andre Massow britnex@gmail.com -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-ico; charset=binary" />
+	<link rel="icon" href="/favicon.ico" type="image/x-ico; charset=binary" />
+	<link rel="stylesheet" href="/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/css/vectorizer.css?v45" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="generator" content="ve2" />
+	<meta name="description" 	content="Online Vectorizer: Online raster to vector converter. Convert your images (jpeg, jpg or png) into scalable and clear vector art (svg). " />
+	<meta name="keywords" content="vectorizer, vector, vectorization, raster, bitmap, bmp, png, jpg, svg, online, tattoo, t-shirt, decal, sticker" />
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorizer.io/">
+	<meta name="twitter:title" content="Online Image Vectorizer">
+	<meta name="twitter:description" content="Online raster to vector converter. Convert your images (jpeg, jpg or png) into scalable and clear vector art (svg)">
+	<meta name="twitter:image" content="https://www.vectorizer.io/img/intro_raster_to_vector.png">
+		
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Online Image Vectorizer" />
+	<meta property="og:description" content="Online raster to vector converter. Convert your images (jpeg, jpg or png) into scalable and clear vector art (svg)" />
+	<meta property="og:url" content="https://www.vectorizer.io/" />
+	<meta property="og:image" content="https://www.vectorizer.io/img/intro_raster_to_vector.png" />
+		
+		
+		
+	<title>Online Image Vectorizer</title>
+</head>
+<body>
+
+ 
+
+    
+
+ 
+ 
+ 
+
+ 
+ 
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+          	<img src="/img/logo.png" alt="vectorizer.io" />
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+           
+
+           
+         
+           
+         	
+          	<li ><a href="/examples/"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>&#160;Examples</a></li>
+          
+          
+           
+           <li><a href="/socialmedia/">Social&#160;Media</a></li>
+            
+      
+            
+          
+          	
+          
+          </ul>
+          
+           
+          
+          <ul class="nav navbar-nav navbar-right">
+          
+          
+          		
+          		 
+         		
+         		<li class="dropdown">
+	           		&#160;
+	           	   <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					    &#160;<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Demo
+					    <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu">
+					    <li>
+					    	<a href="#">
+					    		<strong>Demo Limitations:</strong><br />
+					    		
+					    		<span title="uploads">
+					    			<span class="glyphicon glyphicon-upload" aria-hidden="true"></span> 3/3 &#160;
+					    		</span>
+					    		<span title="edits">
+					    			<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> 30/30 &#160;
+					    		</span>
+					    		<span title="downloads">
+					    			<span class="glyphicon glyphicon-download" aria-hidden="true"></span> 10/10
+					    		</span>
+					    		<br />
+					    		
+					    		<br />
+					    		new credits in 61 minutes<br />
+					    	</a>
+					    </li>
+					  </ul>
+	  			</li>
+	  			<li>
+	  				&#160;
+	  			</li>
+         		 
+          	 
+          		
+	           	<li>
+	           		
+	           		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signin-modal">
+					  <span class="glyphicon glyphicon-user" aria-hidden="true"></span>&#160;Sign In
+					</button>
+					
+					
+					 
+					
+				</li>
+				
+				   
+	       
+	       
+	       
+	       
+          	  
+          </ul>
+          
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav> 
+    
+    
+    
+    
+    
+
+ 
+ 
+
+
+
+    
+    
+ <div class="modal fade" id="signin-modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">
+        	 Sign In
+        </h4>
+      </div>
+      
+	      <div class="modal-body">
+	       
+	       	   
+			  	
+			  
+				
+				 You have not yet accepted our cookie policy in our privacy policy banner. For more details see our <a href="/privacypolicy/#cookies">privacy policy</a>		
+						
+					
+			
+			
+			 
+			
+	       
+	      </div>
+	      <div class="modal-footer">
+	      
+	    	
+	      
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        
+	        
+	        
+	      </div>
+	      
+      
+      
+    </div> 
+  </div> 
+</div> 
+    
+    
+    
+   
+
+
+	
+	
+
+    
+	   
+ 	
+ 	
+   
+	<div class="text-justify container" id="cookiesmsg">
+		
+			
+			 
+		
+			<form method="post" action="/cookieconsent">
+			
+				<div class="info">
+			
+				 	<h3 class="text-center">
+						 
+						
+			        		 Privacy Policy
+			        		
+			        		 
+					</h3>
+				
+					<div class="row">
+					
+						<div class="col-md-8">
+							
+							
+					
+							We use cookies to personalise content and advertisements and to analyse access to our website. Furthermore, our partners for online advertising receive pseudonymised information about your use of our website.
+							Please click on "Accept cookies" if you agree to the setting of cookies. Cookies that do not require consent remain unaffected by this, see 
+						
+							<a target="_blank" href="/privacypolicy/#cookies">cookie policy</a> and <a target="_blank" href="/privacypolicy/">privacy policy</a>.
+							
+							
+							
+							<br />
+							<br />
+							
+						</div>
+						<div class="col-md-4">
+							
+							<div>
+								<button type="submit" name="cookies" value="yes" class="btn btn-primary w-100">
+								
+									
+									ACCEPT COOKIES
+									
+									
+								</button>
+							</div>
+							<br />
+							
+						
+							
+						</div>
+					
+					 
+				
+					</div>
+					 
+			
+				
+				</div>
+	        
+	        	</form>
+   		</div>
+ 
+ 	 
+     
+    
+    
+   
+    
+    
+    
+ 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	
+	
+	
+	
+	
+	
+ 
+	
+	
+	
+
+
+
+    <div class="container">
+      <div class="row">	
+	     <div class="awer text-center" style="background-color: #f0f0f0;">
+	 
+ 
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			 
+
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+	
+			
+
+		</div>
+	</div>
+   </div>
+
+
+    <form method="post" action="/upload" enctype="multipart/form-data">
+    
+	    <div class="jumbotron">
+	     
+	        <div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+					
+							<h1 class="fredericka">Image Vectorizer</h1>
+	   				     <p>Convert raster images like PNGs, BMPs and JPEGs to scalable vector graphics (SVG)</p>
+	   				     
+	   				     <br />
+	   				     <br />
+	   				     <br />
+	   				     
+	   				    	 <noscript>
+	   				    	 	  <p class="text-center">
+				        		 	<strong>	Information: Javascript required!</strong>	<br /> 
+				        		 </p>
+				        	</noscript>
+				        	
+				        	
+				       	 	
+				        		 	
+	   				     
+	   				      <p class="text-center">
+	   				      
+	   				      		
+	   				      		 
+					        		 
+					        		 <button type="button" disabled="disabled" class="btn btn-default btn-lg">
+						        		 <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>&#160; Upload Image
+						        		 <br />
+						        		 <small>
+						        		 	(accept cookies first!)
+						        		 </small>
+					        		 </button>
+					        		 
+					        		 
+					        		 
+					        		
+				        		 	
+				        		 	
+				        	 </p>
+				        	 
+				        	  <p class="text-center">
+				        	  
+					        		<small>
+					        		
+					        		File format: PNG, BMP, JPEG ( max file size: <span id="maxuploadsize">1MB</span> )
+					        		
+				        		 	</small>
+				        		 	
+				        		 	
+				        		 	<br />
+				        	 </p>
+				        	 
+				        	 
+		        	 		
+			        		<ul class="publicprivate">
+			        		
+			        			
+			        			
+			        			<li>
+			        				<label>
+			        				
+			        					<span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+			        					<span class="block">
+				        					Private
+				        					<br />
+				        					<small>Your image will <strong>not</strong> be published in <a href="/examples/">Examples</a></small>
+			        					</span>
+			        				</label>
+			        				
+			        			</li>
+			        			 
+			        		
+			        		</ul>
+					        		 
+				         
+				        	 
+				          
+				        
+				        
+			 
+				       
+				        
+				        
+				        <ul class="startinfo">
+				       
+				        	<li>We use cookies to personalise content and ads</li>
+				        	
+				     
+				        </ul>
+				        
+				        
+				 
+				       
+				        <br /> 	 
+				        
+				        
+			      		
+      		
+					
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+					
+					
+						 
+						
+						
+						 
+						  <div id="carousel" class="carousel slide" data-ride="carousel">
+						  <ol class="carousel-indicators">
+						    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel" data-slide-to="1"></li>
+						    <li data-target="#carousel" data-slide-to="2"></li>
+						    <li data-target="#carousel" data-slide-to="3"></li>
+						  </ol>
+						
+						  <div class="carousel-inner text-center" role="listbox">
+						    <div class="item active">
+						    	<a href="/examples/">
+						      <img class="" src="/img/intro_raster_to_vector.png" alt="intro raster to vector" />
+						      	</a>
+						    </div>
+						
+						    <div class="item">
+						    	<a href="/examples/">
+						      <img class="" src="/img/intro_elephant.png" alt="14thWarrior-Cartoon-Elephant" data-src="https://openclipart.org/detail/83479/cartoon-elephant" />
+						    	</a>
+						    </div>
+						
+						    <div class="item">
+						    	<a href="/examples/">
+						      <img class="" src="/img/intro_dragon.png" alt="Black-Dragon-Tattoo" data-src="https://openclipart.org/detail/168398/blackdragontatoo" />
+						   		</a>
+						    </div>
+						
+						    <div class="item">
+						    	<a href="/examples/">
+						      <img class="" src="/img/intro_rocket.png" alt="rocket-312767" data-src="https://openclipart.org/detail/261323/cartoon-moon-rocket-remix-2" />
+						    	</a>
+						    </div>
+						  </div>
+						
+					 
+						  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+						
+						 
+												
+					
+					</div>
+				</div>
+				
+				 
+		
+				
+				
+						
+				
+			</div>
+	         
+	    </div>
+    </form>
+    
+    
+     
+   
+   
+
+    <div class="container intro">
+    
+     <hr />
+    	  
+      <div class="row">
+      
+        <div class="col-md-4">
+          <h2 class="text-center">How does it work</h2>
+          <p class="text">Vectorization of raster images is done by converting pixel color information into simple geometric objects. The most common variant is looking over edge detection areas of the same or similar brightness or color, which are then expressed as a graphic primitives like lines, circles and curves.</p>
+          <p><a class="btn btn-default" href="http://en.wikipedia.org/wiki/Vectorization_%28image_tracing%29" role="button">View details &raquo;</a></p>
+        </div>
+        
+        <div class="col-md-4">
+          <h2 class="text-center">Raster Graphics</h2>
+          <p class="text">A Raster graphics image is a rectangular grid of pixels, in which each pixel (or point) has an associated color value. Changing the size of the raster image mostly results in loss of apparent quality.
+          
+          	<br />
+          	<br />
+          	<i>examples:</i> photos
+          
+          </p>
+          <p><a class="btn btn-default" href="http://en.wikipedia.org/wiki/Raster_graphics" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="text-center">Vector Graphics</h2>
+          <p class="text">Vector graphics are not based on pixels but on primitives such as points, lines, curves which are represented by mathematical expressions. Without a loss in quality vector graphics are easily scale- and rotateable.
+          	<br />
+          	<br />
+          	<i>examples:</i> cliparts, logos, tattoos, decals, stickers, t-shirt designs
+          
+          </p>
+          <p><a class="btn btn-default" href="http://en.wikipedia.org/wiki/Vector_graphics" role="button">View details &raquo;</a></p>
+       </div>
+      
+      </div>
+      
+      
+     
+      
+      
+      
+      <div>
+			&#160;
+		</div>
+    	
+    	 		
+    	  <div class="row">
+    	   
+    	  
+			<div class="col-md-4 col-sm-4 col-xs-4">
+				<h3 class="text-center">The Thinker</h3>
+				
+				<a href="https://www.facebook.com/402248819951122/videos/964669600375705/" target="_blank">
+					<img class="img-responsive" src="/img/intro_video_thethinker.png" alt="Facebook Video The Thinker" />
+				</a>
+				
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-4">
+				<h3 class="text-center">Albert Einstein</h3>
+				
+				<a href="https://www.facebook.com/402248819951122/videos/964723667036965/" target="_blank">
+					<img class="img-responsive" src="/img/intro_video_alberteinstein.png" alt="Facebook Video Albert Einstein" />
+				</a>
+
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-4">
+				<h3 class="text-center">Cartoon Bat</h3>
+				
+				<a href="https://www.facebook.com/402248819951122/videos/964743877034944/" target="_blank">
+					<img class="img-responsive" src="/img/intro_video_cartoonbat.png" alt="Facebook Video Cartoon Bat" />
+				</a>
+				
+			</div>
+
+		</div>
+	
+      
+
+
+		<div>
+			&#160;
+		</div>
+		<div>
+			&#160;
+		</div>
+      
+      
+       <div class="row">
+       
+        
+        <div class="col-md-4">
+          <h3 class="text-center">T-Shirt Design</h3>
+          <p class="text text-center">
+          
+          	<a href="https://en.wikipedia.org/wiki/File:JoeyFox91_Men%27s_tshirt.png">
+          		<img class="img-responsive" src="/img/JoeyFox91_Men's_tshirt.png" alt="JoeyFox91_Men's_tshirt" />
+          	</a>
+          	<br />
+          	<small>
+	          	Source: <i><a href="https://en.wikipedia.org/wiki/File:JoeyFox91_Men%27s_tshirt.png">JoeyFox91_Men's_tshirt</a></i>
+	        </small>
+          
+          </p>
+        </div>
+        
+        <div class="col-md-4">
+          <h3 class="text-center">Tattoo Templates</h3>
+          <p class="text text-center">
+          
+          	<a href="https://de.wikipedia.org/wiki/Datei:Jane_with_Tattoos.jpg">
+          		<img class="img-responsive" src="/img/Jane_with_Tattoos.jpg" alt="Jane_with_Tattoos" />
+          	</a>
+          	<br />
+          	<small>
+	          	Source: <i><a href="https://de.wikipedia.org/wiki/Datei:Jane_with_Tattoos.jpg">Jane_with_Tattoos</a></i>
+	        </small>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-center">Billboard Design</h3>
+          <p class="text text-center">
+         
+         	<a href="https://commons.wikimedia.org/wiki/File:Madrid_2016-D%C3%ADa_de_la_Corazonada-Edificio_Espa%C3%B1a.jpg">
+          		<img class="img-responsive" src="/img/800px-Madrid_2016-Dia_de_la_Corazonada-Edificio_Espana.jpg" alt="Jane_with_Tattoos" />
+          	</a>
+          	<br />
+          	<small>
+	          	Source: <i><a href="https://commons.wikimedia.org/wiki/File:Madrid_2016-D%C3%ADa_de_la_Corazonada-Edificio_Espa%C3%B1a.jpg">Día de la Corazonada-Edificio España</a></i>
+	        </small>
+          
+          
+          </p>
+       </div>
+      
+      </div>
+
+
+
+      
+    </div> <!-- /container -->
+
+
+
+
+
+
+
+
+
+
+
+	
+
+   
+    
+    
+ 
+    
+    
+    
+
+
+	<div id="loadingpanel"><span class="bar">&#160;</span>&#160;</div>
+   
+    <script src="/js/jquery-1.11.2.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap-filestyle.min.js"></script>
+    <script src="/js/script.js?v45"></script>
+   
+
+	
+
+
+
+	 
+
+	
+	
+
+    
+	
+	
+
+	<hr />
+	<footer class="text-center">
+	  <p>&copy; <a href="/">www.vectorizer.io</a> 2015-2019 &#160;|&#160; <a href="/imprint/">Imprint</a> &#160;|&#160; <a href="/privacypolicy/">Privacy Policy</a> </p>
+	</footer>
+ 	 
+	 
+
+</body>
+</html>
