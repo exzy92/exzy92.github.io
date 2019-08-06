@@ -1,0 +1,21 @@
+header {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	background-color: #000;
+	height: 100px;
+	width: 100%;
+	text-align: right;
+	line-height: 100px;
+}
+
+a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+p {
+	padding-top: 100px;
+}
