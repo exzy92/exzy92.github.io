@@ -13,3 +13,4 @@ My homework
 [lesson 8](https://exzy92.github.io/lesson8/MyFirstProject/src/ "the basics of bootstrap") - familiarity with the grid of Bootstrap  
 [lesson 9](https://exzy92.github.io/lesson9/MyFirstProject/src/ "web page with bootstrap") - web page from lesson 7 with Bootstrap  
 [lesson 10](https://github.com/exzy92/exzy92.github.io/tree/master/lesson10 "preprocessor LESS") - preprocessor LESS for beginners  
+[lesson 11](https://github.com/exzy92/exzy92.github.io/blob/master/lesson11/index.html "snippets") - Snippets  
