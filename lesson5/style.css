@@ -1,0 +1,23 @@
+h1, h2, h3 {
+	text-align: center;
+}
+
+h1 {
+	background-color: orange;
+}
+h2 {
+	border: 1px solid black;
+}
+
+h3 {
+	text-decoration: underline;
+	color: orange;
+}
+
+p {
+	background-color: gold;
+}
+
+span {
+	font-weight: bold;
+}

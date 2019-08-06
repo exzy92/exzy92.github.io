@@ -1,0 +1,20 @@
+Где посмотреть все CSS-теги? 
+https://webref.ru/css
+http://cssreference.io/
+https://ruseller.com/shporacss.php
+
+Где можно дополнительно изучать css? 
+http://www.sitehere.ru/tablica-stilej-css-v-udobnom-vide
+http://css-live.ru/category/css
+
+Названия цветов в HTML, CSS и JavaScript
+http://vvz.nw.ru/Lessons/HTML_Colors/HTMLcolors_HSB.htm
+
+Конвертер цветов
+https://colorscheme.ru/color-converter.html
+
+Какую литературу прочитать для полного погружения?
+1) Новая большая книга CSS
+https://www.ozon.ru/context/detail/id/135731189/
+2) CSS. Карманный справочник
+https://www.ozon.ru/context/detail/id/135656602/
