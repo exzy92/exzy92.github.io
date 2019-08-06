@@ -11,4 +11,5 @@ My homework
 [lesson 6](https://github.com/exzy92/exzy92.github.io/tree/master/lesson6/homework "2 exersices") - positioning css  
 [lesson 7](https://exzy92.github.io/lesson7/MyFirstProject/src/ "html+css web page") - first web page made with html+css  
 [lesson 8](https://exzy92.github.io/lesson8/MyFirstProject/src/ "the basics of bootstrap") - familiarity with the grid of Bootstrap  
-[lesson 9](https://exzy92.github.io/lesson9/MyFirstProject/src/ "web page with bootstrap") - web page from lesson 7 with Bootstrap    
+[lesson 9](https://exzy92.github.io/lesson9/MyFirstProject/src/ "web page with bootstrap") - web page from lesson 7 with Bootstrap  
+[lesson 10](https://github.com/exzy92/exzy92.github.io/tree/master/lesson10 "preprocessor LESS") - preprocessor LESS for beginners  
