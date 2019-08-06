@@ -1,0 +1,8 @@
+Лучшие плагины для Sublime Text
+https://habrahabr.ru/post/235901/
+
+Sublime Text для фронтэнд-разработчика
+https://habrahabr.ru/post/244681/
+
+Живая перезагрузка
+https://webref.ru/dev/automate-with-gulp/live-reloading
