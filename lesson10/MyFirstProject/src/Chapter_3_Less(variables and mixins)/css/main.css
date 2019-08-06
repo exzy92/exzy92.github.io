@@ -1,0 +1,82 @@
+body {
+  box-sizing: border-box;
+}
+.btn-block {
+  text-align: center;
+}
+.btn-block h2 {
+  color: #333;
+  font-weight: 400;
+}
+.btn-default {
+  border-radius: 3px;
+  border: none;
+  background: #e0e0e0;
+  color: #333333;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px 12px;
+}
+.btn-info {
+  border-radius: 3px;
+  border: none;
+  background: #3b83c0;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px 12px;
+}
+.btn-secondary {
+  border-radius: 3px;
+  border: none;
+  background: #404245;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px 12px;
+}
+.btn-default-hover {
+  border-radius: 3px;
+  border: none;
+  background: #e8e8e8;
+  color: #333333;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px 12px;
+}
+.btn-info-hover {
+  border-radius: 3px;
+  border: none;
+  background: #458ac6;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px 12px;
+}
+.btn-secondary-hover {
+  border-radius: 3px;
+  border: none;
+  background: #1b1c1d;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px 12px;
+}
+.btn-xs {
+  border-radius: 3px;
+  border: none;
+  background: #e0e0e0;
+  color: #333333;
+  font-size: 10px;
+  line-height: 20px;
+  padding: 2px 4px;
+}
+.btn-xl {
+  border-radius: 3px;
+  border: none;
+  background: #e0e0e0;
+  color: #333333;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 10px 16px;
+}

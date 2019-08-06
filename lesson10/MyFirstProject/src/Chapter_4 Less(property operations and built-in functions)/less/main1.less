@@ -1,0 +1,12 @@
+@a: 4;
+@b: 0;
+@c: 1;
+
+.result(@a, @b, @c) {
+    @result: ((sqrt(@a) + cos(@b) + max(@a,@b,@c)) / pow(@c, 5));
+}
+
+.test {
+    .result(@a, @b, @c);
+    content: @result;
+}

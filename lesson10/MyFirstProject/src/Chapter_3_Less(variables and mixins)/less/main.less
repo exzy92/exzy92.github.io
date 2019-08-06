@@ -1,0 +1,72 @@
+@default-bg: #e0e0e0;
+@default-color: #333;
+@default-hover-bg: #e8e8e8;
+@default-hover-color: #333;
+@info-bg: #3b83c0;
+@info-color: #fff;
+@info-hover-bg: #458ac6;
+@info-hover-color: #fff;
+@secondary-bg: #404245;
+@secondary-color: #fff;
+@secondary-hover-bg: #1b1c1d;
+@secondary-hover-color: #fff;
+@xs-font-size: 10px;
+@xs-padding: 2px 4px;
+@default-font-size: 14px;
+@default-padding: 6px 12px;
+@xl-font-size: 18px;
+@xl-padding: 10px 16px;
+@line-height: 20px;
+
+body {
+  box-sizing: border-box;
+}
+.btn-block {
+  text-align: center;
+  h2 {
+    color: #333;
+    font-weight: 400;
+  }
+}
+
+.btn-value(@bg, @color, @fz, @lh, @padding) {
+  border-radius: 3px;
+  border: none;
+  background: @bg;
+  color: @color;
+  font-size: @fz;
+  line-height: @lh;
+  padding: @padding;
+}
+
+.btn-default {
+  .btn-value(@default-bg, @default-color, @default-font-size, @line-height, @default-padding);
+}
+
+.btn-info {
+  .btn-value(@info-bg, @info-color, @default-font-size, @line-height, @default-padding);
+}
+
+.btn-secondary {
+  .btn-value(@secondary-bg, @secondary-color, @default-font-size, @line-height, @default-padding);
+}
+
+.btn-default-hover {
+  .btn-value(@default-hover-bg, @default-hover-color, @default-font-size, @line-height, @default-padding);
+}
+
+.btn-info-hover {
+  .btn-value(@info-hover-bg, @info-hover-color, @default-font-size, @line-height, @default-padding);
+}
+
+.btn-secondary-hover {
+  .btn-value(@secondary-hover-bg, @secondary-hover-color, @default-font-size, @line-height, @default-padding);
+}
+
+.btn-xs {
+  .btn-value(@default-bg, @default-color, @xs-font-size, @line-height, @xs-padding);
+}
+
+.btn-xl {
+  .btn-value(@default-bg, @default-color, @xl-font-size, @line-height, @xl-padding);
+}

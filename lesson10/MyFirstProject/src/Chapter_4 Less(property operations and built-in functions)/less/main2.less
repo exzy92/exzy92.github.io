@@ -1,0 +1,10 @@
+@color: red;
+@color-dark: darken(@color, 25%);
+@color-light: lighten(@color, 25%);
+
+a {
+    color: @color-dark;
+    &:hover {
+        color: @color-light;
+    }
+}
