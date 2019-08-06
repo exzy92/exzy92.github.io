@@ -1,0 +1,14 @@
+Где посмотреть все HTML-теги? 
+htmlreference.io
+webref.ru/html
+https://ruseller.com/htmlshpora.php
+
+16 универсальных атрибутов для тегов: 
+webref.ru/html/attr/common 
+
+Какую литературу прочитать для полного погружения?
+1) HTML и CSS. Разработка и дизайн веб-сайтов
+https://www.ozon.ru/context/detail/id/21469102/
+
+2) Роббинс. HTML5. Карманный справочник.
+https://www.ozon.ru/context/detail/id/138552248/
