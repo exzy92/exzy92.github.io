@@ -1,0 +1,23 @@
+Сниппеты в Sublime Text. Как создать сниппет. Полная инструкция
+
+http://rightblog.ru/2702
+
+Базовые стили и полезные CSS-сниппеты
+
+https://habrahabr.ru/post/159101/
+
+20 невероятно полезных СSS-сниппетов
+
+http://www.gtalk.kz/green-sovety/20-neveroyatno-poleznyx-css-snippetov.html
+
+Полезные CSS-сниппеты
+
+http://www.dejurka.ru/css/css-snippets/
+
+Подборка сниппетов для CSS
+
+http://vremenno.net/html-css/css-snippets/
+
+20 полезных сниппетов CSS для создания адаптивного меню
+
+http://www.internet-technologies.ru/articles/article_2870.html
