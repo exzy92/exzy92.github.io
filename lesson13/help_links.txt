@@ -1,0 +1,11 @@
+ѕлагин дл€ Chrome pixel perfect
+https://goo.gl/yqrvV
+
+ѕерестаньте делать обычные сайты. јдаптив Ч это не страшно
+https://habrahabr.ru/post/292846/
+
+Ѕазовые принципы адаптации сайтов под мобильные устройства
+http://blog.seopult.ru/seotech/bazovye-principy-adaptacii-sajtov-pod-mobilnye-ustrojstva.html
+
+30 CSS-фреймворков дл€ адаптивного веб-дизайна
+https://habrahabr.ru/post/156747/
