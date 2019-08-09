@@ -16,3 +16,4 @@ My homework
 [lesson 11](https://github.com/exzy92/exzy92.github.io/blob/master/lesson11/index.html "snippets") - Snippets  
 [lesson 12](https://exzy92.github.io/lesson12/exzy92_exzy92.github.io.htm "hosting by GitHub") - hosting by GitHub  
 [lesson 13](https://exzy92.github.io/lesson13/ "homework in style PixelPerfect") - Adaptive layout   
+[lesson 14]([lesson 13](https://exzy92.github.io/lesson13/ "practice, part 1") - practice, part 1, header web page    
